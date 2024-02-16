@@ -1,6 +1,6 @@
 # HardwareStore Simulator
 
-This is a simple simulator for a hardware store. It models the store, the shoppers, and the items they can purchase. This simulator is part of a data structures class and demonstrates the use of `ArrayList` and `PriorityQueue` data structures in Java.
+This is a simple simulator for a hardware store. It models the store, the shoppers, and the items they can purchase. This simulator was created as part of a data structures class in Fall 2022 and demonstrates the use of `ArrayList` and `PriorityQueue` data structures in Java.
 
 ## Classes
 
@@ -31,3 +31,4 @@ Shopper shopper1 = new Shopper(); // Create a shopper
 store.addShopperToLine(shopper1); // Add the shopper to the line
 store.checkoutAllShoppers(); // Process all shoppers in the line
 double revenue = store.totalRevenue(); // Get the total revenue
+```
