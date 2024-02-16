@@ -16,6 +16,7 @@ The simulator uses the following data structures:
 
 - `ArrayList`: This is a resizable array implementation of the `List` interface in Java. It provides efficient methods for adding, removing, and accessing elements. In the simulator, `ArrayList` is used to store the list of items in the `HardwareStore` class and the list of registers.
 - `PriorityQueue`: This is a specialized queue implementation in Java that orders elements according to their natural ordering or a custom comparator. It provides efficient methods for inserting elements and retrieving and removing the element with the highest priority. In the simulator, `PriorityQueue` is used to manage the line of shoppers in the `HardwareStore` class, with shoppers ordered by their shopping cart total.
+- `ShoppingCart`: Represents a shopping cart associated with a shopper. It holds the items that a shopper intends to purchase and can calculate the total cost of these items.
 
 These data structures are well-suited to the tasks they're being used for in the simulator, and understanding how they work is a fundamental part of the data structures class.
 
